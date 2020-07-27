@@ -459,6 +459,9 @@ button {
     height: 80px;
     position: fixed;
   }
+  .nav-items a {
+    color: rgb(255, 255, 255);
+  }
   #check {
     display: none;
   }
@@ -478,18 +481,18 @@ button {
     display: none;
   }
   input:checked ~ .nav-items {
-    margin-left: -10px;
     width: 100%;
     height: 100vh;
     display: block;
     position: fixed;
     top: 80px;
-    color: white;
+    left: 0;
     background-color: #0008fc;
   }
+
   input:checked ~ .nav-items li {
     transition-duration: 1s;
-    padding: 30px;
+    padding: 20px;
   }
 
   .title-section {
