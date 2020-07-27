@@ -575,6 +575,9 @@ button {
     width: 90%;
     display: block;
   }
+  .sidenav {
+    display: none;
+  }
 
   /* Footer */
   .footer-content {
