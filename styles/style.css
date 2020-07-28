@@ -158,6 +158,11 @@ button {
   transform: translateY(-15px);
   transition-duration: 1s;
 }
+iframe {
+  width: 100%;
+  height: 232px;
+  border: none;
+  }
 
 /* About */
 .section-acerca h2 {
